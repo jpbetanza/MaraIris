@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    h1 {
+      @apply text-3xl;   
+    }
+}
+@media screen(md){
+  h1{
+    @apply text-6xl;
+  }
+}
