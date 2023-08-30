@@ -12,10 +12,9 @@ const boards = []
 for( var i = 6; i < 31; i = i+6 ){boards.push(alphabet.slice(i-6, i))} //Spliting the alphabet into separate "Boxes"
 
 
-const MainFrame = () => {
+const MainFrame = ({switchFunc}) => {
     const [exibit,setExibit] = useState(boards); //Variable to define what options the user has at their disposal (Pick a leter || Pick a bunch of leters)
     const [text,setText] = useState('') //Text to be writen and displayed 
-    console.log(exibit)
 
     if(exibit[0].length>1){
         return(
@@ -26,7 +25,7 @@ const MainFrame = () => {
                     <TextBox css="col-start-2 row-start-2" text={text}></TextBox>
                     <Func onclick={()=>setText(text.slice(0,-1))} text={"Apagar"} css={"col-start-1 row-start-2"}/>
                     <Func onclick={()=>setText(text+" ")} text={'Espaço'} css={'col-start-2 row-start-3'}/>
-                    <Func onclick={()=>talk(text)} text={'Falar'} css={'col-start-3 row-start-2'} /> {/*Still not functional*/}
+                    <Func onclick={()=>talk(text)} text={'Falar'} css={'col-start-3 row-start-2'} /> 
                 </div>
             </div>
         )
