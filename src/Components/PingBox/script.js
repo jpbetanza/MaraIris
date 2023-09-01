@@ -1,13 +1,19 @@
-export function clickAt(x, y) {
+export function clickAt(x, y, elem) {
     var event = new MouseEvent('click', {
         'view': window,
         'bubbles': true,
         'cancelable': true,
+        'layerX' : x, 
+        'layerY' : y,
         'screenX': x,
-        'screenY': y
+        'screenY': y,
+        'clientX': x,
+        'clientY': y,
+        'offsetX': x,
+        'offsetY': y,
+        'pageX'  : x,
+        'pageY'  : y,
     });
-    var element = document.elementFromPoint(x, y);
-    if (element) {
-        element.dispatchEvent(event);
-    }
+    console.log('CLICANDO!')
+    elem.dispatchEvent(event);
 }

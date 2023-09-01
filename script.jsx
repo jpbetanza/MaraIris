@@ -1,3 +1,5 @@
+window.saveDataAcrossSessions = true
+
 function printMousePos(event) {
     console.log(event)
   }

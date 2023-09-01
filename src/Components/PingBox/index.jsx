@@ -2,13 +2,16 @@ import { useEffect, useState } from "react"
 import { clickAt } from "./script"
 
 const PingBox = ({css})=>{
+
     const [clicks,SetClicks] = useState(0)
     useEffect(()=>{
         const intervalId = setInterval(()=>{
             var rect = document.getElementById("target").getBoundingClientRect();
-            clickAt((rect.right+rect.left)/2,(rect.bottom+rect.top)/2);
+            clickAt((rect.right+rect.left)/2,(rect.bottom+rect.top)/2,document.getElementById("target"));
+            clickAt((rect.right+rect.left)/2,(rect.bottom+rect.top)/2,document.getElementById("target"));
+            clickAt((rect.right+rect.left)/2,(rect.bottom+rect.top)/2,document.getElementById("target"));
             SetClicks(clicks+1);
-        },500);
+        },400);
         return () => clearInterval(intervalId);
     },[clicks])
 
