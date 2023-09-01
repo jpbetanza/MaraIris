@@ -2,6 +2,7 @@ import MainFrame from "./Components/MainFrame"
 import Calibration from "./Components/Calibration"
 import { useState, useEffect } from "react"
 import { clickAt } from "./Components/PingBox/script";
+import { webgazer } from "../webgazer";
 
 function App() {
   const [cal, SetCal] = useState(true)

@@ -5,7 +5,7 @@
  *  Licensed under GPLv3. Companies with a valuation of less than $1M can use WebGazer.js under LGPLv3.
  *
  */
-var webgazer;(()=>{var __webpack_modules__={483:(e,t,n)=>{
+export var webgazer;(()=>{var __webpack_modules__={483:(e,t,n)=>{
     /*!
         localForage -- Offline Storage, Improved
         Version 1.7.3
