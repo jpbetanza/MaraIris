@@ -12,7 +12,7 @@ Existem vários métodos de comunicação com pacientes com ELA, e um deles envo
 2. O paciente seleciona um quadro que contém a letra desejada olhando em sua direção.
 ![Imagem do paciente olhando na direção do quadrante da letra P no quadro selecionado](selecaoDeQuadro.png)
 
-3. Como se o quadro aumentasse de tamanho, o paciente seleciona uma letra olhando na direção do quadrante que contém a letra escolhida.
+3. Como se o quadro aumentasse de tamanho, o paciente olha na direção do quadrante que contém a letra escolhida.
 ![Imagem do paciente olhando na direção do quadrante da letra P no quadro selecionado](selecaoDeLetra.png)
 
 ## Projeto Mara - Versão 2
