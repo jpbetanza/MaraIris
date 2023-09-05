@@ -6,13 +6,13 @@ O **Projeto Mara** foi desenvolvido com o objetivo de aprimorar a comunicação 
 
 Existem vários métodos de comunicação com pacientes com ELA, e um deles envolve o uso de um quadro com o alfabeto disposto em quadrantes. O processo para escolher a letra __P__, por exemplo, é o seguinte:
 
-1. Um acompanhante ou profissional de saúde posiciona o quadro na frente do paciente, que olha diretamente para ele.
+### Um acompanhante ou profissional de saúde posiciona o quadro na frente do paciente, que olha diretamente para ele.
 ![Imagem da visão do paciente com o acompanhante/profissional de saúde e quadro de comunicação à sua frente](visaopaciente.png)
 
-2. O paciente seleciona um quadro que contém a letra desejada olhando em sua direção.
+### O paciente seleciona um quadro que contém a letra desejada olhando em sua direção.
 ![Imagem do paciente olhando na direção do quadrante da letra P no quadro selecionado](selecaoDeQuadro.png)
 
-3. Como se o quadro aumentasse de tamanho, o paciente olha na direção do quadrante que contém a letra escolhida.
+### Como se o quadro aumentasse de tamanho, o paciente olha na direção do quadrante que contém a letra escolhida.
 ![Imagem do paciente olhando na direção do quadrante da letra P no quadro selecionado](selecaoDeLetra.png)
 
 ## Projeto Mara - Versão 2
