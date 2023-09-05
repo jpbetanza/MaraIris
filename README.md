@@ -13,6 +13,7 @@ Existem vários métodos de comunicação com pacientes com ELA, e um deles envo
 ![Imagem do paciente olhando na direção do quadrante da letra P no quadro selecionado](selecaoDeQuadro.png)
 
 3. Como se o quadro aumentasse de tamanho, o paciente seleciona uma letra olhando na direção do quadrante que contém a letra escolhida.
+   
 ![Imagem do paciente olhando na direção do quadrante da letra P no quadro selecionado](selecaoDeLetra.png)
 
 ## Projeto Mara - Versão 2
@@ -42,7 +43,7 @@ npm run dev
 
 ## Feito com
 
-* [Tailwind CSS]([https://www.python.org/](https://tailwindcss.com/)) - Framework CSS
+* [TailwindCSS]([https://www.python.org/](https://tailwindcss.com/)) - Framework CSS
 * [React](https://react.dev/) - Framework Front End
 * [WebGazerJS](https://webgazer.cs.brown.edu/) - Biblioteca de rastreio ocular
 
