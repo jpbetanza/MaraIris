@@ -10,7 +10,7 @@ const CalibrationEnd = ({end, dep})=>{
         }, [dep]);
 
     return(
-        <div className={`flex text-white text-center row-span-3 col-span-3 justify-center w-full h-full items-center rounded-lg select-none`}>
+        <div className={`flex text-white text-center row-span-5 col-span-5 justify-center w-full h-full items-center rounded-lg select-none`}>
             <h1 className="">Calibração concluída, abrindo o teclado...</h1>
         </div>
     )
