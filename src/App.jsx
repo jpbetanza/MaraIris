@@ -21,12 +21,12 @@ function App() {
       pos = {x:data.x,y:data.y}
 
       pickup = document.elementsFromPoint(pos.x,pos.y).filter((div)=>div['className'].includes('quadro'))[0]
-
       if(quadro != pickup && pickup!=undefined){
         clearTimeout(chronometer)
         console.log('clicando...?')
         quadro = pickup
         chronometer = setTimeout(()=>{clickAt(pos.x,pos.y,pickup);quadro=null},1500)
+        
       }
       if(quadro != pickup && pickup==undefined){
         quadro=null
