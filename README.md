@@ -1,5 +1,7 @@
 # Projeto Mara
-
+---
+O projeto Mara tem uma versão com controle pelo piscar de olhos! Você pode acessar o repositório [aqui](https://github.com/jpbetanza/Mara3)
+---
 O **Projeto Mara** foi desenvolvido com o objetivo de aprimorar a comunicação de pessoas que sofrem de esclerose lateral amiotrófica (ELA), uma doença neurológica que afeta o funcionamento dos neurônios motores, levando à progressiva perda de movimento dos membros, culminando na paralisia total. Essa paralisia ocorre de baixo para cima no corpo, deixando os músculos oculares como os últimos a serem afetados. É importante notar que os neurônios sensoriais permanecem funcionando normalmente, permitindo que os pacientes ainda sintam sensações de toque, dor, temperatura e posição dos membros.
 
 ## Comunicação com Pacientes
